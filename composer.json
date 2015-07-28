@@ -1,0 +1,23 @@
+{
+    "name": "arturom/rqtest",
+    "authors": [
+        {
+            "name": "Arturo Mejia",
+            "email": "arturo.mejia@kreatetechnology.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/arturom/php-resque"
+        }
+    ],
+    "require": {
+        "chrisboulton/php-resque": "dev-nofork"
+    },
+    "autoload": {
+		"psr-4": {
+			"RealTime\\": "src/RealTime"
+		}
+	}
+}

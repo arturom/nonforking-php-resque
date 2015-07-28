@@ -1,0 +1,4 @@
+composer.phar
+vendor/
+notes.md
+redis_monitor.log
